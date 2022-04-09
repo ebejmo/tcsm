@@ -1,0 +1,96 @@
+@import "imports/links.css";
+@import "imports/variables.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+}
+
+main {
+  background-color: var(--color-background);
+}
+
+h1,
+h2 {
+  font-family: var(--text-heading);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.dark {
+  color: var(--primary-color-text);
+}
+
+img {
+  width: 100%;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  padding: 5px 0;
+  border-bottom: var(--primary-color);
+}
+
+#top {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.svg-logo-nav {
+  width: 165px;
+  height: 50px;
+  padding: 0 5px 0 5px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.fas.fa-bars {
+  font-size: 1.9em;
+  color: var(--primary-color);
+  padding: 0 5px 0 5px;
+}
+
+/* .fas.fa-bars:hover {
+  font-size: 2em;
+  padding: 0;
+} */
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+nav {
+  display: none;
+  position: absolute;
+  top: 56px;
+  left: 0px;
+}
+
+.nav-search {
+  display: none;
+}
+
+.nav-tickets {
+  padding: 0 5px 0 5px;
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+
+ul {
+  padding-left: 0px;
+  background-color: var(--primary-color-bright);
+  width: 200px;
+}

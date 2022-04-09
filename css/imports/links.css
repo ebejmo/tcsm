@@ -1,0 +1,35 @@
+a {
+  font-family: var(--text-heading);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cta {
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  min-width: 120px;
+  padding: 5px 20px;
+  background-color: var(--primary-color);
+  color: var(--primary-color-bright);
+  margin: 10px;
+}
+
+.cta-ticket-small {
+  color: var(--primary-color-text);
+  background-color: var(--color-sand);
+  padding: 5px 10px;
+  min-width: 60px;
+  margin: 0;
+}
+
+.cta-ticket-small:hover {
+  background-color: var(--color-sand);
+  opacity: 95%;
+}
+
+.cta-hero {
+  border: 3px solid var(--primary-color-bright);
+  margin-top: 30px;
+}

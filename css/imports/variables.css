@@ -1,0 +1,10 @@
+:root {
+  --text-heading: "Oswald";
+  --text-paragraph: "Poppins";
+  --primary-color: #4129d9; /* purple */
+  --primary-color-text: #402401; /* darkbrown */
+  --primary-color-bright: #ffffff; /* white */
+  --color-danger: #d63f31; /* red */
+  --color-sand: #d9ad5b; /* yellow */
+  --color-background: #f4f4f4; /* light grey */
+}
