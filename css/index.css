@@ -1,8 +1,12 @@
 .hero {
-  background-color: var(--primary-color);
-  min-height: 540px;
-  display: flex;
-  flex-direction: column;
+  /* background-color: var(--primary-color); */
+  /* min-height: 540px; */
+  /* display: flex;
+  flex-direction: column; */
+}
+
+main p {
+  padding: 0 10px;
 }
 
 .hero-img {
@@ -10,13 +14,15 @@
   margin: 0 auto;
 }
 
-.hero-img img {
+/* .hero-img img {
   min-height: 280px;
-}
+} */
 
 .hero-content {
+  background-color: var(--primary-color);
   text-align: center;
-  margin: 10px 0;
+  margin: -7px auto;
+  max-width: 1000px;
 }
 
 .hero-content h1,

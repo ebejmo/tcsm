@@ -44,7 +44,8 @@ header {
   border-bottom-style: solid;
 }
 
-.svg-logo-nav {
+.svg-logo-nav,
+.svg-logo-footer {
   width: 165px;
   height: 50px;
   padding: 0 5px 0 5px;
@@ -93,4 +94,17 @@ ul {
   padding-left: 0px;
   background-color: var(--primary-color-bright);
   width: 200px;
+}
+
+footer {
+  background-color: var(--primary-color-text);
+  display: flex;
+}
+
+.logo-container-footer {
+  margin: auto;
+}
+
+.svg-logo-footer {
+  margin: 20px 0;
 }
