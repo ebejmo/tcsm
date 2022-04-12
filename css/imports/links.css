@@ -5,15 +5,37 @@ a {
   font-weight: 500;
 }
 
+.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.kids {
+  color: var(--color-danger);
+}
+
+ul a {
+  color: var(--text-paragraph);
+  font-weight: 400;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
 .cta {
   font-weight: 600;
   display: inline-block;
   text-align: center;
-  min-width: 120px;
+  min-width: 80px;
   padding: 5px 20px;
   background-color: var(--primary-color);
   color: var(--primary-color-bright);
   margin: 10px;
+}
+
+.cta:hover {
+  background-color: var(--primary-color-hover);
 }
 
 .cta-ticket-small {
