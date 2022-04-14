@@ -33,7 +33,7 @@
   .hero {
     margin: 0 auto;
   }
-  .container {
+  .container-featured {
     margin: 40px auto;
   }
   .featured-list {
@@ -42,7 +42,13 @@
   .featured-list-small {
     grid-template-columns: repeat(4, 1fr);
   }
-  .container-third {
+  .explore-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .container-media {
     margin: 60px auto;
   }
   footer div {
@@ -73,10 +79,21 @@
   .visit-container-danger div {
     margin-bottom: 15px;
   }
+  .visit-btn {
+    flex: 1;
+    max-width: 350px;
+    margin: 0;
+  }
+  .btn-big-container {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1000px) {
   .visit-content-short {
+    max-width: 400px;
+  }
+  .visit-btn {
     max-width: 400px;
   }
 }

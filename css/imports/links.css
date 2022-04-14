@@ -48,10 +48,79 @@ ul a:hover {
 
 .cta-ticket-small:hover {
   background-color: var(--color-sand);
-  opacity: 95%;
+  background-color: var(--hover-sand);
 }
 
 .cta-hero {
   border: 3px solid var(--primary-color-bright);
   margin-top: 30px;
+}
+
+.visit-btn {
+  margin: 30px;
+}
+
+.btn-big-container {
+  max-width: 460px;
+  margin: 15px auto;
+}
+
+.btn-big {
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  color: var(--primary-color-bright);
+  padding: 20px;
+}
+
+.btn-big span {
+  font-size: 40px;
+  line-height: 32px;
+}
+
+.cta-article {
+  margin: 20px;
+}
+
+.cta-article:hover {
+  font-weight: 500;
+}
+
+.btn-big-dark,
+.cta-research {
+  color: var(--primary-color-text);
+  background-color: var(--color-sand);
+}
+
+.btn-big-dark:hover,
+.cta-research:hover {
+  background-color: var(--hover-sand);
+}
+
+.btn-big-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-big-primary:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.btn-big-brown,
+.cta-kids {
+  background-color: var(--primary-color-text);
+}
+
+.btn-big-brown:hover,
+.cta-kids:hover {
+  background-color: var(--hover-text);
+}
+
+.btn-big-danger,
+.cta-teacher {
+  background-color: var(--color-danger);
+}
+
+.btn-big-danger:hover,
+.cta-teacher:hover {
+  background-color: var(--hover-danger);
 }

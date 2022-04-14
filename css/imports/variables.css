@@ -2,10 +2,13 @@
   --text-heading: "Oswald";
   --text-paragraph: "Poppins";
   --primary-color: #4129d9; /* purple */
-  --primary-color-hover: #1f00e9;
+  --primary-color-hover: #3924bf;
   --primary-color-text: #402401; /* darkbrown */
+  --hover-text: #2b1801;
   --primary-color-bright: #ffffff; /* white */
   --color-danger: #d63f32; /* red */
-  --color-sand: #d9ad5b; /* yellow */
+  --hover-danger: #cc3c2f;
+  --hover-sand: #d9ad5b; /* yellow */
+  --color-sand: #f5c367;
   --color-background: #f4f4f4; /* light grey */
 }

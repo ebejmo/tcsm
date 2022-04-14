@@ -19,11 +19,21 @@ main {
 
 h1,
 h2,
-h3 {
-  font-family: var(--text-heading);
+h3,
+.list-title {
+  font-family: var(--text-heading), Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   margin: 0;
+}
+
+.list-title {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.featured-list-small .list-title {
+  font-size: 19px;
 }
 
 .dark {
@@ -100,7 +110,7 @@ ul {
 
 .container {
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .hero {
@@ -130,7 +140,7 @@ ul {
   font-size: 1.2em;
 }
 
-.container-third {
+.container-media {
   margin: 40px auto;
 }
 
@@ -142,6 +152,14 @@ ul {
   font-size: 24px;
   padding: 0 15px;
   color: var(--primary-color);
+}
+
+.breadcrumb {
+  padding: 0 20px;
+}
+
+.breadcrumb span {
+  text-decoration: none;
 }
 
 .headline-container-primary {
@@ -157,10 +175,6 @@ ul {
 
 .headline-container-primary-danger {
   background-color: var(--color-danger);
-}
-
-.headline-container-primary h2 {
-  font-size: 1.3em;
 }
 
 /* .container-flex {
@@ -183,13 +197,15 @@ ul {
   margin: 0 auto;
 }
 
-.content-container-top-primary h3 {
+.content-title {
   color: var(--primary-color);
   padding: 10px 20px;
+  font-size: 21px;
+  font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content-container-top-primary p {
-  padding: 10px 20px;
+  padding: 0px 20px 10px 20px;
   max-width: 1000px;
   font-size: 18px;
   margin: 0;
