@@ -36,6 +36,7 @@ ul a:hover {
 
 .cta:hover {
   background-color: var(--primary-color-hover);
+  font-weight: 500;
 }
 
 .cta-ticket-small {
@@ -82,9 +83,9 @@ ul a:hover {
   margin: 20px;
 }
 
-.cta-article:hover {
+/* .cta-article:hover {
   font-weight: 500;
-}
+} */
 
 .btn-big-dark,
 .cta-research {
@@ -106,21 +107,21 @@ ul a:hover {
 }
 
 .btn-big-brown,
-.cta-kids {
+.cta-teachers {
   background-color: var(--primary-color-text);
 }
 
 .btn-big-brown:hover,
-.cta-kids:hover {
+.cta-teachers:hover {
   background-color: var(--hover-text);
 }
 
 .btn-big-danger,
-.cta-teacher {
+.cta-kids {
   background-color: var(--color-danger);
 }
 
 .btn-big-danger:hover,
-.cta-teacher:hover {
+.cta-kids:hover {
   background-color: var(--hover-danger);
 }

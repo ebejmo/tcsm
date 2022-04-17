@@ -1,13 +1,26 @@
 .hero {
-  background: url(/images/homepage/hero.jpg) center top no-repeat;
+  background: url(/images/homepage/hero-home\ copy.jpg) center top no-repeat;
   background-size: cover;
   min-height: 45vh;
+  background-position-x: center;
 }
 
-.featured-list {
-  display: grid;
-  grid-template-columns: 1 fr;
-  gap: 20px 10px;
+.hero-featured-content {
+  background-color: var(--primary-color);
+  max-width: 500px;
+  text-align: center;
+  /* background-color: var(--primary-color);
+max-width: 500px;
+text-align: center;
+position: absolute;
+top: 28%; */
+}
+
+.hero-featured-content,
+h1,
+h2,
+p {
+  color: var(--primary-color-bright);
 }
 
 .featured-list-small {
