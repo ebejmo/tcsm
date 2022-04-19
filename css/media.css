@@ -87,6 +87,9 @@
   .btn-big-container {
     margin-top: 0;
   }
+  .visit-content-short-tickets {
+    flex: 1;
+  }
 }
 
 @media (min-width: 1000px) {
