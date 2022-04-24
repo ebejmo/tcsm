@@ -110,7 +110,7 @@ ul {
 
 .container {
   max-width: 1000px;
-  margin: 30px auto;
+  margin: 20px auto 30px auto;
 }
 
 .hero {
@@ -178,14 +178,6 @@ ul {
   font-size: 24px;
   padding: 0 15px;
   color: var(--primary-color);
-}
-
-.breadcrumb {
-  padding: 0 20px;
-}
-
-.breadcrumb span {
-  text-decoration: none;
 }
 
 .headline-container-primary {
@@ -272,4 +264,11 @@ footer div {
 .footer-row-three {
   color: var(--primary-color-bright);
   font-size: 0.7em;
+}
+
+/* tickets / checkout / confirmation */
+
+.checkout-title {
+  font-family: var(--text-paragraph);
+  font-size: 18px;
 }

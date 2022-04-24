@@ -1,3 +1,8 @@
+@media (max-width: 366px) {
+  .headline-container-primary-tickets h1 {
+    font-size: 21px;
+  }
+}
 @media (min-width: 500px) {
   .footer-row-one a,
   .footer-row-two a {

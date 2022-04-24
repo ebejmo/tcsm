@@ -83,9 +83,10 @@ ul a:hover {
   margin: 20px;
 }
 
-/* .cta-article:hover {
-  font-weight: 500;
-} */
+.cta-checkout {
+  display: block;
+  padding: 8px 0;
+}
 
 .btn-big-dark,
 .cta-research {
@@ -124,4 +125,21 @@ ul a:hover {
 .btn-big-danger:hover,
 .cta-kids:hover {
   background-color: var(--hover-danger);
+}
+
+.breadcrumb a {
+  font-family: var(--text-paragraph);
+  color: var(--text-paragraph);
+  text-transform: none;
+  font-weight: 400;
+}
+
+.breadcrumb {
+  padding: 0 20px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.breadcrumb-active {
+  font-weight: 600;
 }

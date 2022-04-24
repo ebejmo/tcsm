@@ -1,0 +1,29 @@
+.confirmation-container {
+  max-width: 80%;
+  background-color: var(--secondary-bg);
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.confirmation-container i {
+  font-size: 140px;
+  text-align: center;
+  color: rgb(13, 180, 13);
+  display: block;
+  padding-bottom: 20px;
+}
+
+.confirmation-text-info {
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.confirmation-text-info p {
+  margin-bottom: 10px;
+}
+
+.heavy {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
