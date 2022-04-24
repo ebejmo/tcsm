@@ -34,3 +34,43 @@ p {
 .featured-list-small {
   grid-template-columns: repeat(2, 1fr);
 }
+
+.featured-cta-list {
+  position: absolute;
+  bottom: 15px;
+}
+
+/* poop */
+
+.poop {
+  height: 180px;
+  width: 100%;
+}
+
+.poop-second {
+  height: 150px;
+}
+
+.poop .list-title {
+  display: block;
+  text-align: center;
+}
+
+.poop p {
+  padding: 8px 15px;
+  margin: 12px auto;
+}
+
+.poop-second p {
+  margin: 0;
+}
+
+.poop .featured-cta-list {
+  position: absolute;
+  bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

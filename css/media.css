@@ -4,12 +4,19 @@
   }
 }
 @media (min-width: 500px) {
+  .poop p {
+    margin: 12px auto;
+  }
   .footer-row-one a,
   .footer-row-two a {
     padding: 20px;
   }
 }
-
+@media (min-width: 600px) {
+  .featured-cta-list {
+    bottom: 5px;
+  }
+}
 @media (min-width: 800px) {
   nav {
     display: block;
@@ -43,6 +50,16 @@
   }
   .featured-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .poop p {
+    margin: 0;
+  }
+  .featured-cta {
+    position: absolute;
+    bottom: 15px;
+  }
+  .featured-cta-list {
+    bottom: 5px;
   }
   .featured-list-small {
     grid-template-columns: repeat(4, 1fr);
@@ -98,6 +115,12 @@
 }
 
 @media (min-width: 1000px) {
+  .poop p {
+    margin: 12px auto;
+  }
+  .featured-cta {
+    bottom: 5px;
+  }
   .visit-content-short {
     max-width: 400px;
   }

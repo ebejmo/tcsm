@@ -119,8 +119,8 @@ ul {
 
 .featured-list {
   display: grid;
-  grid-template-columns: 1 fr;
-  gap: 20px 10px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px 15px;
 }
 
 .featured-list h2 {
@@ -133,7 +133,12 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
+
+/* .featured-content-list-main {
+  min-height: 350px;
+} */
 
 .featured-content-list p {
   padding: 8px 15px;
