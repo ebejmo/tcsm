@@ -4,7 +4,10 @@
   }
 }
 @media (min-width: 500px) {
-  .poop p {
+  .featured-list-exhibitions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content p {
     margin: 12px auto;
   }
   .footer-row-one a,
@@ -51,7 +54,7 @@
   .featured-list {
     grid-template-columns: repeat(3, 1fr);
   }
-  .poop p {
+  .content p {
     margin: 0;
   }
   .featured-cta {
@@ -80,28 +83,28 @@
   .footer-row-two a {
     padding: 30px;
   }
-  .visit-top {
+  .box-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .visit-top > * {
+  .box-top > * {
     flex-basis: 100%;
   }
-  .visit-content-short {
+  .box-content-short {
     max-width: 350px;
     margin: 0;
   }
-  .visit-second {
+  .box-second {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 30px 0;
   }
-  .visit-container-danger div {
+  .box-container-danger div {
     margin-bottom: 15px;
   }
-  .visit-btn {
+  .box-btn {
     flex: 1;
     max-width: 350px;
     margin: 0;
@@ -109,22 +112,22 @@
   .btn-big-container {
     margin-top: 0;
   }
-  .visit-content-short-tickets {
+  .box-content-short-tickets {
     flex: 1;
   }
 }
 
 @media (min-width: 1000px) {
-  .poop p {
+  .content p {
     margin: 12px auto;
   }
   .featured-cta {
     bottom: 5px;
   }
-  .visit-content-short {
+  .box-content-short {
     max-width: 400px;
   }
-  .visit-btn {
+  .box-btn {
     max-width: 400px;
   }
 }
