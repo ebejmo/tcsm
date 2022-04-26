@@ -3,7 +3,7 @@
     font-size: 21px;
   }
 }
-@media (min-width: 500px) {
+@media (min-width: 470px) {
   .featured-list-exhibitions {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -19,8 +19,18 @@
   .featured-cta-list {
     bottom: 5px;
   }
+  /* .explore-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .box-content-short {
+    max-width: 350px;
+    margin: 0;
+  } */
 }
-@media (min-width: 800px) {
+@media (min-width: 720px) {
   nav {
     display: block;
     position: static;
@@ -71,7 +81,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
   }
   .container-media {
     margin: 60px auto;

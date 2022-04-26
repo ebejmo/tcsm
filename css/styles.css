@@ -36,9 +36,9 @@ h3,
   font-size: 19px;
 }
 
-.dark {
+/* .dark {
   color: var(--primary-color-text);
-}
+} */
 
 img {
   width: 100%;
@@ -133,9 +133,10 @@ ul {
 
 .featured-content-list p {
   padding: 8px 15px;
-  font-size: 0.9em;
+  font-size: 14px;
   text-align: center;
   margin: 0;
+  color: var(--text-paragraph);
 }
 
 .content {
@@ -284,6 +285,11 @@ ul {
   font-size: 16px;
 }
 
+.checkout-title {
+  font-family: var(--text-paragraph);
+  font-size: 18px;
+}
+
 footer {
   background-color: var(--primary-color-text);
   display: flex;
@@ -315,11 +321,4 @@ footer div {
 .footer-row-three {
   color: var(--primary-color-bright);
   font-size: 0.7em;
-}
-
-/* tickets / checkout / confirmation */
-
-.checkout-title {
-  font-family: var(--text-paragraph);
-  font-size: 18px;
 }
