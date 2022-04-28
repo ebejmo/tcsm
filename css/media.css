@@ -19,16 +19,6 @@
   .featured-cta-list {
     bottom: 5px;
   }
-  /* .explore-all {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-  }
-  .box-content-short {
-    max-width: 350px;
-    margin: 0;
-  } */
 }
 @media (min-width: 720px) {
   nav {
@@ -56,7 +46,7 @@
     display: none;
   }
   .hero {
-    margin: 0 auto;
+    min-height: 70vh;
   }
   .container-featured {
     margin: 40px auto;

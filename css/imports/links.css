@@ -23,6 +23,19 @@ ul a:hover {
   text-decoration: underline;
 }
 
+.cta-hero {
+  border: 3px solid var(--primary-color-bright);
+  margin-top: 30px;
+  padding: 6px 12px;
+  color: var(--primary-color-bright);
+  display: inline-block;
+  min-width: 90px;
+}
+
+.cta-hero:hover {
+  font-weight: 400;
+}
+
 .cta {
   font-weight: 500;
   display: inline-block;
@@ -54,11 +67,6 @@ ul a:hover {
 .cta-ticket-small:hover {
   background-color: var(--color-sand);
   background-color: var(--hover-sand);
-}
-
-.cta-hero {
-  border: 3px solid var(--primary-color-bright);
-  margin-top: 30px;
 }
 
 .box-btn {
