@@ -59,9 +59,9 @@ header {
 
 .svg-logo-nav,
 .svg-logo-footer {
-  width: 165px;
+  max-width: 150px;
   height: 50px;
-  padding: 0 5px 0 5px;
+  /* padding: 0 5px 0 5px; */
 }
 
 #hamburger-menu {
