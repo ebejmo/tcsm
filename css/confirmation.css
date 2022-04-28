@@ -2,7 +2,7 @@
   max-width: 80%;
   background-color: var(--secondary-bg);
   margin: 30px auto;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .confirmation-container i {
@@ -11,6 +11,7 @@
   color: rgb(13, 180, 13);
   display: block;
   padding-bottom: 20px;
+  margin: 50px;
 }
 
 .confirmation-text-info {
