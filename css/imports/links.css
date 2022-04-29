@@ -55,6 +55,36 @@ ul a:hover {
   font-weight: 400;
 }
 
+.list-title {
+  text-align: center;
+}
+
+.list-title:hover {
+  font-weight: 600;
+  color: var(--primary-color-hover);
+}
+
+.content-second .list-title {
+  font-size: 19px;
+}
+
+.list-text {
+  font-family: var(--text-paragraph);
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+  padding: 0 10px;
+  font-size: 14px;
+  margin: 20px 0;
+  color: var(--primary-color-text);
+  height: 43px;
+}
+
+.list-text:hover {
+  font-weight: 500;
+  color: var(--hover-text);
+}
+
 .cta-ticket {
   color: var(--primary-color-text);
   background-color: var(--color-sand);

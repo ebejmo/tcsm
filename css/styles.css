@@ -75,6 +75,10 @@ header {
   padding: 0 5px 0 5px;
 }
 
+.fas.fa-bars:hover {
+  color: var(--primary-color-hover);
+}
+
 .fas.fa-search {
   font-size: 24px;
   color: var(--primary-color-text);
@@ -129,7 +133,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 
 .featured-content-list p {
@@ -141,35 +144,19 @@ ul {
 }
 
 .content {
-  height: 180px;
+  height: 120px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .content-second {
-  height: 150px;
+  height: 110px;
 }
 
-.content .list-title {
-  display: block;
-  text-align: center;
-}
-
-.content p {
-  padding: 8px 15px;
-  margin: 12px auto;
-}
-
-.content-second p {
-  margin: 0;
-}
-
-.content .featured-cta-list {
-  position: absolute;
-  bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+.content {
   text-align: center;
 }
 
