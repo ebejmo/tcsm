@@ -21,8 +21,16 @@
   padding: 20px;
 }
 
+.tickets-runt-all .cta {
+  margin-top: 20px;
+}
+
 .checkout-all {
   background-color: var(--secondary-bg);
+}
+
+.checkout-all .cta {
+  margin: 30px 10px;
 }
 
 .tickets-title {
