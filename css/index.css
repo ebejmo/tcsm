@@ -1,6 +1,6 @@
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/homepage/hero-bg.jpg) center right no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/homepage/hero-background.jpg) top left no-repeat;
   background-size: cover;
   min-height: 50vh;
   display: flex;
