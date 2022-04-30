@@ -44,6 +44,9 @@ ul a:hover {
 
 .cta-main {
   background-color: var(--primary-color);
+  margin: 0 auto;
+  font-size: 18px;
+  min-width: 90px;
 }
 
 .cta-main:hover {
@@ -55,16 +58,11 @@ ul a:hover {
   font-weight: 400;
 }
 
-.list-title {
-  text-align: center;
+.featured-list-small .cta-main {
+  font-size: 16px;
 }
 
-.list-title:hover {
-  font-weight: 600;
-  color: var(--primary-color-hover);
-}
-
-.content-second .list-title {
+.content-second {
   font-size: 19px;
 }
 
@@ -81,7 +79,6 @@ ul a:hover {
 }
 
 .list-text:hover {
-  font-weight: 500;
   color: var(--hover-text);
 }
 

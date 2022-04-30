@@ -20,26 +20,12 @@ main {
 
 h1,
 h2,
-h3,
-.list-title {
+h3 {
   font-family: var(--text-heading), Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   margin: 0;
 }
-
-.list-title {
-  color: var(--primary-color);
-  font-size: 24px;
-}
-
-.featured-list-small .list-title {
-  font-size: 19px;
-}
-
-/* .dark {
-  color: var(--primary-color-text);
-} */
 
 img {
   width: 100%;
@@ -76,7 +62,7 @@ header {
 }
 
 .fas.fa-bars:hover {
-  color: var(--primary-color-hover);
+  color: var(--hover-text);
 }
 
 .fas.fa-search {
@@ -149,15 +135,12 @@ ul {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .content-second {
   height: 110px;
-}
-
-.content {
-  text-align: center;
 }
 
 .box-content-short {
