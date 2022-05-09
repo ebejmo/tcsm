@@ -50,14 +50,14 @@
 }
 
 .tickets-entrance {
-  padding-left: 10px;
+  padding: 0 10px;
 }
 
 .tickets-selection {
   display: flex;
   gap: 20px;
   justify-content: right;
-  padding: 0 60px 10px 0;
+  padding: 0 40px 10px 10px;
   align-items: center;
 }
 

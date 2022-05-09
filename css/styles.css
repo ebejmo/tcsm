@@ -218,11 +218,6 @@ ul {
   background-color: var(--color-danger);
 }
 
-/* .container-flex {
-  display: flex;
-  flex-direction: column;
-} */
-
 .img-container-primary {
   max-width: 500px;
   padding: 10px 20px;
